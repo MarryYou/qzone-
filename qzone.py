@@ -8,8 +8,8 @@ driver = webdriver.Chrome()
 driver.maximize_window()
 res = driver.get('https://i.qq.com/')
 driver.switch_to.frame('login_frame')
-user = '614345508'
-pwd = 'fanhaotian950812'
+user = ''
+pwd = ''
 driver.find_element_by_id('bottom_qlogin').click()
 driver.find_element_by_id('u').send_keys(user)
 driver.find_element_by_id('p').send_keys(pwd)
